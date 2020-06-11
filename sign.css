@@ -1,0 +1,23 @@
+
+h1
+{
+    width:400px;
+    height:60px;
+    background:black;
+    color:white;
+    margin: auto;
+}
+
+form
+{
+  background:black;
+  color:white;
+  width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+form div svg
+{
+    padding-top:15px;
+}

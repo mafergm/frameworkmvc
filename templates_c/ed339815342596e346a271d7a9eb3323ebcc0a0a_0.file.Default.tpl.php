@@ -1,4 +1,30 @@
-{include file = "Cabecera/header.tpl"}
+<?php
+/* Smarty version 3.1.34-dev-7, created on 2020-06-11 08:11:06
+  from 'C:\xampp\htdocs\mafergm\frameworkmvc\templates\Default.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.34-dev-7',
+  'unifunc' => 'content_5ee1cafabcf818_15922935',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ed339815342596e346a271d7a9eb3323ebcc0a0a' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\mafergm\\frameworkmvc\\templates\\Default.tpl',
+      1 => 1591855863,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:Cabecera/header.tpl' => 1,
+    'file:Cabecera/footer.tpl' => 1,
+  ),
+),false)) {
+function content_5ee1cafabcf818_15922935 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:Cabecera/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
   </br>  </br>  </br>  </br>  </br>
   <h1 align = "center"><strong>Sign in</strong></h1>
   </br>
@@ -25,4 +51,6 @@
   
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-{include file = "Cabecera/footer.tpl"}
+<?php $_smarty_tpl->_subTemplateRender("file:Cabecera/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
+}
